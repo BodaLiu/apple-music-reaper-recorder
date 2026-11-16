@@ -1,0 +1,32 @@
+{
+  "target_playlist": "Dataset_Atmos_Balanced_100",
+  "storefront": "tw",
+  "target_track_count": 100,
+  "purpose": "A fixed, genre-balanced Apple Music Dolby Atmos pilot set for paired Atmos-on and Atmos-off stereo-render captures.",
+  "sources": [
+    {"label": "Pop", "quota": 10, "playlist_id": "pl.cc74a5aec23942da9cf083c6c4344aee", "name": "空間音訊體驗：流行樂"},
+    {"label": "Rock", "quota": 10, "playlist_id": "pl.a82d7ac0ee854d8b8a95708c76210023", "name": "空間音訊體驗：搖滾"},
+    {"label": "HipHop", "quota": 10, "playlist_id": "pl.a0c765aa555e457c9666b2a201de5506", "name": "空間音訊體驗：嘻哈"},
+    {"label": "RNB", "quota": 10, "playlist_id": "pl.cdcd503ccbd6484ba11687f034f14a62", "name": "空間音訊體驗：R&B"},
+    {"label": "Electronic", "quota": 10, "playlist_id": "pl.9ca5521e31c8408c97377a71030396d1", "name": "空間音訊體驗：電子音樂"},
+    {"label": "Jazz", "quota": 10, "playlist_id": "pl.efbd24628ff04ff3b5e416a6e237d753", "name": "空間音訊體驗：爵士樂"},
+    {"label": "Classical", "quota": 10, "playlist_id": "pl.ffea4bbea2d141cbb0ec67e32059b278", "name": "空間音訊體驗：古典音樂"},
+    {"label": "Country", "quota": 10, "playlist_id": "pl.924f9f9df2294b9c97f5e40d8862f7e7", "name": "空間音訊體驗：鄉村樂"},
+    {"label": "Alternative", "quota": 10, "playlist_id": "pl.cea62393d5904aa0bff430f7473713a3", "name": "空間音訊體驗：另類音樂"},
+    {"label": "CPop", "quota": 10, "playlist_id": "pl.7cdf5c34b7c84bf0b0ff3f9188528439", "name": "空間音訊體驗：C-Pop"}
+  ],
+  "selection_rules": {
+    "required_audio_traits": ["atmos", "spatial"],
+    "maximum_tracks_per_artist": 2,
+    "minimum_duration_seconds": 120,
+    "maximum_duration_seconds": 480,
+    "exclude_title_markers": ["Live", "DJ Mix", "Remix", "Instrumental", "Karaoke"],
+    "exclude_movie_ost": true,
+    "deduplicate_by": ["catalog_id", "isrc"],
+    "freeze_catalog_ids_after_selection": true
+  },
+  "capture_sets": [
+    {"name": "Atmos_On", "music_dolby_atmos_setting": "Always On"},
+    {"name": "Atmos_Off", "music_dolby_atmos_setting": "Off"}
+  ]
+}

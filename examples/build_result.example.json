@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-01-01T00:00:00+00:00",
+  "categories": [
+    {
+      "label": "Rock",
+      "playlist_name": "Dataset_Rock",
+      "target_count": 200,
+      "created_count": 200
+    },
+    {
+      "label": "Jazz",
+      "playlist_name": "Dataset_Jazz",
+      "target_count": 200,
+      "created_count": 200
+    }
+  ]
+}

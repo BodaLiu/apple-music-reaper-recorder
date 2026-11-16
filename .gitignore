@@ -1,0 +1,29 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Recorded audio and local working datasets
+*.wav
+*.wave
+*.w64
+*.m4a
+*.aac
+*.flac
+dataset/
+_REAPER_STAGING/
+_failed_attempts/
+
+# Personal Apple Music exports and generated manifests
+歌单/
+music_dataset_2000/*_build/
+music_dataset_2000/dataset_build/
+music_dataset_2000/*candidates.csv
+capture_config.json
+metadata.csv
+recording_manifest.csv
+
+# Local logs and temporary files
+*.log
+*.tmp

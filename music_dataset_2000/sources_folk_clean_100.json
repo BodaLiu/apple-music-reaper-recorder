@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "expected_category_count": 1,
+  "storefront": "tw",
+  "target_per_category": 100,
+  "reserve_per_category": 30,
+  "max_tracks_per_artist": 3,
+  "seed": 20260825,
+  "categories": [
+    {
+      "label": "Folk_Clean",
+      "target_playlist": "Dataset_Folk_Clean_100",
+      "allowed_apple_genres": [
+        "Folk",
+        "Traditional Folk",
+        "Contemporary Folk",
+        "Alternative Folk",
+        "Singer/Songwriter"
+      ],
+      "sources": [
+        {
+          "name": "民謠代表作品",
+          "catalog_id": "pl.ced4e8788cab46e7982ba4a26e5211a7",
+          "url": "https://music.apple.com/tw/playlist/%E6%B0%91%E8%AC%A0%E4%BB%A3%E8%A1%A8%E4%BD%9C%E5%93%81/pl.ced4e8788cab46e7982ba4a26e5211a7"
+        },
+        {
+          "name": "英倫民謠代表作品",
+          "catalog_id": "pl.a7be635ddafd48c49f6c5656d826285f",
+          "url": "https://music.apple.com/tw/playlist/%E8%8B%B1%E5%80%AB%E6%B0%91%E8%AC%A0%E4%BB%A3%E8%A1%A8%E4%BD%9C%E5%93%81/pl.a7be635ddafd48c49f6c5656d826285f"
+        },
+        {
+          "name": "獨立民謠",
+          "catalog_id": "pl.ad5fb94a637445e7913da978dbe91e55",
+          "url": "https://music.apple.com/tw/playlist/%E7%8D%A8%E7%AB%8B%E6%B0%91%E8%AC%A0/pl.ad5fb94a637445e7913da978dbe91e55"
+        }
+      ]
+    }
+  ]
+}
